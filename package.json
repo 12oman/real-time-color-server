@@ -4,13 +4,13 @@
     "description": "A simple full-stack application to change the background color in real-time across all connected clients.",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "socket.io": "^4.0.0"
+        "express": "^4.17.1",
+        "ip": "^2.0.1",
+        "socket.io": "^4.0.0"
     },
     "author": "Roman Mitch",
     "license": "ISC"
-  }
-  
+}
